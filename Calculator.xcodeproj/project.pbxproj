@@ -15,6 +15,9 @@
 		C105D94B1D1140C20078551B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C105D9491D1140C20078551B /* LaunchScreen.storyboard */; };
 		C105D9561D1140C20078551B /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C105D9551D1140C20078551B /* CalculatorTests.m */; };
 		C105D9611D1140C20078551B /* CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C105D9601D1140C20078551B /* CalculatorUITests.m */; };
+		C19266681D123B140069819C /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C19266651D123B140069819C /* Calculator.m */; };
+		C19266691D123B140069819C /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = C19266671D123B140069819C /* Fraction.m */; };
+		C19266751D1292240069819C /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19266741D1292240069819C /* InfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		C105D95C1D1140C20078551B /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C105D9601D1140C20078551B /* CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorUITests.m; sourceTree = "<group>"; };
 		C105D9621D1140C20078551B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19266641D123B140069819C /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calculator.h; path = ../../ObjC/ObjC/Calculator.h; sourceTree = "<group>"; };
+		C19266651D123B140069819C /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calculator.m; path = ../../ObjC/ObjC/Calculator.m; sourceTree = "<group>"; };
+		C19266661D123B140069819C /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraction.h; path = ../../ObjC/ObjC/Fraction.h; sourceTree = "<group>"; };
+		C19266671D123B140069819C /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraction.m; path = ../../ObjC/ObjC/Fraction.m; sourceTree = "<group>"; };
+		C19266731D1292240069819C /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		C19266741D1292240069819C /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,12 @@
 		C105D93A1D1140C20078551B /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				C19266731D1292240069819C /* InfoViewController.h */,
+				C19266741D1292240069819C /* InfoViewController.m */,
+				C19266641D123B140069819C /* Calculator.h */,
+				C19266651D123B140069819C /* Calculator.m */,
+				C19266661D123B140069819C /* Fraction.h */,
+				C19266671D123B140069819C /* Fraction.m */,
 				C105D93E1D1140C20078551B /* AppDelegate.h */,
 				C105D93F1D1140C20078551B /* AppDelegate.m */,
 				C105D9411D1140C20078551B /* ViewController.h */,
@@ -271,8 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C105D9431D1140C20078551B /* ViewController.m in Sources */,
+				C19266681D123B140069819C /* Calculator.m in Sources */,
+				C19266751D1292240069819C /* InfoViewController.m in Sources */,
 				C105D9401D1140C20078551B /* AppDelegate.m in Sources */,
 				C105D93D1D1140C20078551B /* main.m in Sources */,
+				C19266691D123B140069819C /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +516,7 @@
 				C105D9671D1140C20078551B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C105D9681D1140C20078551B /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				C105D96A1D1140C20078551B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C105D96B1D1140C20078551B /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				C105D96D1D1140C20078551B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
